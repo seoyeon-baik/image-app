@@ -1,0 +1,25 @@
+# Secrets (only the empty template is tracked)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and local output
+node_modules/
+.vercel/
+coverage/
+.nyc_output/
+*.log
+dist/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local agent state
+.codex/
+.agents/
